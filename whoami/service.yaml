@@ -4,7 +4,7 @@ metadata:
   name: whoami
 spec:
   ports:
-  - port: 9999
+  - port: 80
     targetPort: 80
   selector:
     app: whoami
