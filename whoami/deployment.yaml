@@ -14,7 +14,7 @@ spec:
         app: whoami
     spec:
       containers:
-      - image: containous/whoami:latest
+      - image: manuelkasiske/whoami:latest
         name: whoami
         ports:
         - containerPort: 80
